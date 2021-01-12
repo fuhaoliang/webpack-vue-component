@@ -10,7 +10,7 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-import VButton from '../../lib/v-button'
+import VButton from 'v-ui'
 
 export default {
   name: "Home",

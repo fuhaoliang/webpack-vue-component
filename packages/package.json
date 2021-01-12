@@ -1,0 +1,13 @@
+{
+  "name": "v-ui",
+  "version": "7.0.0",
+  "main": "../lib/index.js",
+  "license": "MIT",
+  "files": [
+    "./lib",
+    "./packages"
+  ],
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  }
+}

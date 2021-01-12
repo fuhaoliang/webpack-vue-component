@@ -1,7 +1,7 @@
 {
-  "name": "v-ui",
+  "name": "webpack-vue-component",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "",
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --config build/build-server.js",
@@ -42,6 +42,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "dog-names": "^2.0.0",
+    "v-ui": "^4.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"

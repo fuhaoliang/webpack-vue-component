@@ -8293,6 +8293,11 @@ uuid@^3.3.2, uuid@^3.4.0:
   resolved "https://registry.npm.taobao.org/uuid/download/uuid-3.4.0.tgz?cache=0&sync_timestamp=1607460052228&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fuuid%2Fdownload%2Fuuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha1-sj5DWK+oogL+ehAK8fX4g/AgB+4=
 
+v-ui@^4.0.0:
+  version "4.0.0"
+  resolved "http://localhost:4873/v-ui/-/v-ui-4.0.0.tgz#0f027f2a29fa6bd28af69f6d2ab8dd10d348b52f"
+  integrity sha512-k6f2gAGZ0n9wErwupbSOylDimG1YqdmAYfwdKb+TD/a7LjYGhekvJRnfiBH5I2vVWfMH7oro9jJiHhfvx+pzQw==
+
 v8-compile-cache@^2.1.1:
   version "2.2.0"
   resolved "https://registry.npm.taobao.org/v8-compile-cache/download/v8-compile-cache-2.2.0.tgz?cache=0&sync_timestamp=1603909372873&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fv8-compile-cache%2Fdownload%2Fv8-compile-cache-2.2.0.tgz#9471efa3ef9128d2f7c6a7ca39c4dd6b5055b132"
