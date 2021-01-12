@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    [ "component", 
+      {
+        "libraryName": "VUI",
+        "styleLibraryName": "theme"
+      }, 
+      "VUI"
+    ] 
+  ]
+}

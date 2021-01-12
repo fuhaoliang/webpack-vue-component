@@ -1,0 +1,10 @@
+<template>
+  <div class="about">
+    <h1 class="bg">This is an about page</h1>
+  </div>
+</template>
+<style lang="less">
+  .bg{
+    background: url('../assets/logo.png');
+  }
+</style>

@@ -1,0 +1,4 @@
+{
+  "v-button": "./packages/components/VButton/index.js",
+  "v-input": "./packages/components/VInput/index.js"
+}
