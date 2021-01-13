@@ -1,7 +1,11 @@
 Basic button:
 
 ```vue live
-<Button>Push Me</Button>
+<template>
+  <div>
+    <button class="VButton">我是VButton组件!</button>
+  </div>
+</template>
 ```
 
 Big pink button:

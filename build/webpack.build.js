@@ -47,7 +47,6 @@ module.exports = merge(webpackCommonConf, {
     ]
   },
   plugins: [
-
     new CleanWebpackPlugin(),
     new webpack.DefinePlugin({
       ENV: JSON.stringify('production')

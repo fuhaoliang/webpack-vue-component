@@ -8293,10 +8293,10 @@ uuid@^3.3.2, uuid@^3.4.0:
   resolved "https://registry.npm.taobao.org/uuid/download/uuid-3.4.0.tgz?cache=0&sync_timestamp=1607460052228&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fuuid%2Fdownload%2Fuuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha1-sj5DWK+oogL+ehAK8fX4g/AgB+4=
 
-v-ui@^4.0.0:
-  version "4.0.0"
-  resolved "http://localhost:4873/v-ui/-/v-ui-4.0.0.tgz#0f027f2a29fa6bd28af69f6d2ab8dd10d348b52f"
-  integrity sha512-k6f2gAGZ0n9wErwupbSOylDimG1YqdmAYfwdKb+TD/a7LjYGhekvJRnfiBH5I2vVWfMH7oro9jJiHhfvx+pzQw==
+v-ui@^9.0.0:
+  version "9.0.0"
+  resolved "http://localhost:4873/v-ui/-/v-ui-9.0.0.tgz#4fc3a4473b13f66fe6912ccd0314e739f8d66f09"
+  integrity sha512-K4BQFBec95uFnwYSBnRTNdJz3FTU9odZ1fizflPj2qV4DGktRw85FDXtimnyQIhwMhD037muc6URo6SdjQ8ANA==
 
 v8-compile-cache@^2.1.1:
   version "2.2.0"
@@ -8489,8 +8489,8 @@ vue-template-es2015-compiler@^1.9.0:
 
 vue@^2.6.11:
   version "2.6.12"
-  resolved "https://registry.npm.taobao.org/vue/download/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
-  integrity sha1-9evU+mvShpQD4pqJau1JBEVskSM=
+  resolved "http://localhost:4873/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
+  integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
 vuex@^3.4.0:
   version "3.6.0"

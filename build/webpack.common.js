@@ -5,7 +5,7 @@ const config = require('./config')
 
 module.exports = {
   mode: 'production',
-  entry: path.join(__dirname, '../src/main.js'),
+  entry: path.join(__dirname, '../examples/main.js'),
   module: {
     rules: [
       {
@@ -38,17 +38,27 @@ module.exports = {
         ]
       }]
   },
+  externals: {
+    vue: 'Vue',
+    vuex: 'Vuex',
+    'vue-router': 'VueRouter',
+  },
   plugins: [
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
-      url: config.publicPath,
-      title: 'My App',
-      template: path.join(__dirname, "../public/index.html"),
+      template: './examples/index.tpl',
+      filename: './index.html',
+      // favicon: './examples/favicon.ico'
     }),
+    // new HtmlWebpackPlugin({
+    //   url: config.publicPath,
+    //   title: 'My App',
+    //   template: path.join(__dirname, "../public/index.html"),
+    // }),
   ],
   resolve: {
     alias: {
-      '@': path.join(__dirname, "../src"),
+      '@': path.join(__dirname, "../examples"),
     }
   }
 }

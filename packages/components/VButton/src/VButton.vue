@@ -6,8 +6,8 @@
 
 <script>
 /**
-   * The only true Vbutton.
-   * @displayName Vbutton
+   * The only true VButton.
+   * @displayName VButton
    */
 export default {
     name: "VButton",

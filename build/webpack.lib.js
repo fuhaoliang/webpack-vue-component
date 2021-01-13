@@ -5,14 +5,12 @@ const { merge } = require('webpack-merge')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const TerserPlugin = require('terser-webpack-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
-const Components = require('../components.json');
+const Components = require('./components.json');
 
 let entrys = {
   index:  path.join(__dirname, '../packages/index.js')
 }
-const ComponentsPath = Object.keys(Components).forEach(key => entrys[key] = Components[key])
-
-console.info('ComponentsPath--->', ComponentsPath)
+Object.keys(Components).forEach(key => entrys[key] = Components[key])
 
 module.exports = merge({
   mode: 'production',
@@ -22,14 +20,6 @@ module.exports = merge({
     path: path.resolve(__dirname, '../lib'),
     library: 'VUI',
     libraryTarget: 'umd'
-  },
-  externals: {
-    vue: {
-      root: 'Vue',
-      commonjs: 'vue',
-      commonjs2: 'vue',
-      amd: 'vue'
-    }
   },
   module: {
     rules: [
