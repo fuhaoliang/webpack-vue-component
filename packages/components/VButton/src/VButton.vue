@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="VButton">我是VButton组件!</button>
+    <button class="VButton">组件！！!</button>
   </div>
 </template>
 

@@ -2,9 +2,9 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-// import VUI from '../lib'
+import VUI from '../lib'
 
-// Vue.use(VUI)
+Vue.use(VUI)
 Vue.config.productionTip = false;
 
 new Vue({
