@@ -1,6 +1,6 @@
 {
-  "name": "v-ui",
-  "version": "2.0.0",
+  "name": "hx-ui",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
   "files": [
